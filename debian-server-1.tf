@@ -2,6 +2,7 @@ resource "proxmox_vm_qemu" "debian-server-1" {
   name = "debian-server-1"
   desc = "Debian GUI"
   target_node = "pve"
+  vmid = "899"
 
   agent = 1
 
